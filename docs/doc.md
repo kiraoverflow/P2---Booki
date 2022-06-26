@@ -23,7 +23,7 @@
 2. Les éléments de la page sont alignés grace aux propriétés flexbox.     
 
 ```
-![schema](schema.jpg)
+![schema](/schema.jpg)
 ```
 
 ## Propriétés css :
