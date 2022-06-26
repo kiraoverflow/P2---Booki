@@ -22,9 +22,25 @@
 
 2. Les éléments de la page sont alignés grace aux propriétés flexbox.     
 
-```
-![schema](/schema.jpg)
-```
+3. Le site est décomposé en 8 parties :     
+   
+   * Header
+   
+   * Banner
+   
+   * Searchbar
+   
+   * Filters
+   
+   * Information
+   
+   * Results
+   
+   * Activity 
+   
+   * Footer
+
+<img src="schema.jpg">
 
 ## Propriétés css :
 
