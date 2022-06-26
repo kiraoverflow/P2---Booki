@@ -1252,20 +1252,21 @@ pre[class*="language-"] {
 <h2 class="atx" id="description-technique">Description technique</h2>
 <h3 class="atx" id="choix-des-balises-html-">Choix des balises HTML :</h3>
 <ul>
-<li><pre><code class="fenced-code-block language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>section</span><span class="token punctuation">&gt;</span></span> <span class="token comment">&lt;!-- Regroupement thématique--&gt;</span></code></pre>
+<li><pre><code class="fenced-code-block language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>section</span><span class="token punctuation">&gt;</span></span> <span class="token comment">&lt;!-- Regroupement thématique--&gt;</span>   </code></pre>
 </li>
 <li><pre><code class="fenced-code-block language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>article</span><span class="token punctuation">&gt;</span></span> <span class="token comment">&lt;!-- Définit un élément autonome pour une meilleur intégration externe--&gt;</span></code></pre>
 </li>
-<li><pre><code class="fenced-code-block language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>picture</span><span class="token punctuation">&gt;</span></span> <span class="token comment">&lt;!-- Charge les images en fonction de la taille du navigateur--&gt;</span></code></pre>
+<li><pre><code class="fenced-code-block language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>picture</span><span class="token punctuation">&gt;</span></span> <span class="token comment">&lt;!-- Charge les images en fonction de la taille de l'écran--&gt;</span></code></pre>
 </li>
 </ul>
 <h2 class="atx" id="structure-">Structure :</h2>
 <ol>
-<li><p>Une frame principal à laquelle on a appliquer des marges de chaque cotés pour centrer tout les elements présents dans la page.</p>
+<li><p>Pour centrer tous les éléments sur la page, ils sont placé dans un conteneur parent auquel sont appliqués des margins de chaque côtés.</p>
 </li>
-<li><p>Les éléments sont contenu dans des diviseurs et aligner à l'aide de Flexbox.</p>
+<li><p>Les éléments de la page sont alignés grace aux propriétés flexbox.     </p>
 </li>
 </ol>
+<pre><code class="fenced-code-block">![schema](schema.jpg)</code></pre>
 <h2 class="atx" id="proprietes-css-">Propriétés css :</h2>
 <h4 class="atx" id="flexbox-">Flexbox :</h4>
 <ul>

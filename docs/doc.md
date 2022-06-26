@@ -5,7 +5,7 @@
 ### Choix des balises HTML :
 
 * ```html
-  <section> <!-- Regroupement thématique-->
+  <section> <!-- Regroupement thématique-->   
   ```
 
 * ```html
@@ -13,16 +13,14 @@
   ```
 
 * ```html
-  <picture> <!-- Charge les images en fonction de la taille du navigateur-->
+  <picture> <!-- Charge les images en fonction de la taille de l'écran-->
   ```
 
 ## Structure :
 
-1.  Une frame principal à laquelle on a appliquer des marges de chaque cotés pour centrer tout les elements présents dans la page.
+1. Pour centrer tous les éléments sur la page, ils sont placé dans un conteneur parent auquel sont appliqués des margins de chaque côtés.
 
-2. Les éléments sont contenu dans des diviseurs et aligner à l'aide de Flexbox.
-   
-   
+2. Les éléments de la page sont alignés grace aux propriétés flexbox.
 
 ## Propriétés css :
 
@@ -47,5 +45,15 @@
 * ```css
   flex-direction :; /* définit la direction (row pu colonne) d'un élément */
   ```
+
+
+
+
+
+
+
+
+
+
 
 
