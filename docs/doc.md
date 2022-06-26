@@ -20,7 +20,11 @@
 
 1. Pour centrer tous les éléments sur la page, ils sont placé dans un conteneur parent auquel sont appliqués des margins de chaque côtés.
 
-2. Les éléments de la page sont alignés grace aux propriétés flexbox.
+2. Les éléments de la page sont alignés grace aux propriétés flexbox.     
+
+```
+![schema](schema.jpg)
+```
 
 ## Propriétés css :
 
