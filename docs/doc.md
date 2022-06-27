@@ -84,7 +84,7 @@
   width :;  /* definit la largeur d'un élément.*/
   ```
 - ```css
-  box-shadow :; 
+  box-shadow :; /* ajoute une ombre porté sur un élément*/
   ```
 
 - ```css
@@ -95,4 +95,18 @@
   padding :;  /* definit des marges interieur*/
   ```
 
-- 
+- ```css
+  transformation :;  /* applique des transformations à un élément */
+  ```
+
+- ```css
+  flex-grow :;  /* définit l'expansion d'un élément flexible*/
+  ```
+
+- ```css
+  object-fit:;  /* définit comment un élément doit s'adapter à sont conteneur*/
+  ```
+
+- ```css
+  text-decoration:;  /* décore le text */
+  ```
