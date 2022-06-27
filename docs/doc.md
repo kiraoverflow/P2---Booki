@@ -22,7 +22,9 @@
 
 2. Les éléments de la page sont alignés grace aux propriétés flexbox.     
 
-3. Le site est décomposé en 8 parties :     
+3. Les break
+
+4. Le site est décomposé en 8 parties :     
    
    * Header
    
@@ -38,13 +40,13 @@
    
    * Activity 
    
-   * Footer
+   * Footer        
+
+### Ce qui nous donne :
 
 <img src="schema.jpg">
 
-## Propriétés css :
-
-#### Flexbox :
+## Propriétés utilisés:
 
 * ```css
   display : flex; /* définit le type d'affichage utilisée par un élément*/ 
@@ -66,14 +68,31 @@
   flex-direction :; /* définit la direction (row pu colonne) d'un élément */
   ```
 
+* ```css
+  border :; /* ajoute une bordure a un element */
+  ```
 
+* ```css
+  border-radius :; /* ajoute une bordure arrondie à un élément.*/
+  ```
 
+* ```css
+  height :; /* definit la hauteur d'un élément.*/
+  ```
 
+* ```css
+  width :;  /* definit la largeur d'un élément.*/
+  ```
+- ```css
+  box-shadow :; 
+  ```
 
+- ```css
+  margin :;  /* definit des marges exterieur.*/
+  ```
 
+- ```css
+  padding :;  /* definit des marges interieur*/
+  ```
 
-
-
-
-
-
+- 
