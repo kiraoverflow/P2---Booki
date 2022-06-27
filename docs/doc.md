@@ -22,7 +22,15 @@
 
 2. Les éléments de la page sont alignés grace aux propriétés flexbox.     
 
-3. Les break
+3. Les breakpoints sont définit de la sorte à couvrir toutes les tailles d'écran.
+   
+   * jusqu'à 576px pour les mobiles.
+   
+   * a partir de 768px pour les tablettes.
+   
+   * à partir de 992px pour les ordinateurs portables.
+   
+   * à partir de 1200px pour les ordinateurs de bureau.
 
 4. Le site est décomposé en 8 parties :     
    
@@ -46,7 +54,7 @@
 
 <img src="schema.jpg">
 
-## Propriétés utilisés:
+## Propriétés css utilisés:
 
 * ```css
   display : flex; /* définit le type d'affichage utilisée par un élément*/ 
