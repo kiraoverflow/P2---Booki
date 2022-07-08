@@ -1,0 +1,108 @@
+/*------------------MEDIA-QUERY--------------------*/
+/*  TABLETTE : > 768px < DESKTOP */
+@media only screen and (min-width: 750px) and (max-width: 991px){
+    .global-frame{
+      margin-right: 0px;
+    }
+    .top{
+      flex-direction: column;
+      height: unset;
+    }
+    .logo{
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .nav{
+      justify-content: center;
+    }
+    .nav a{
+      width: 100%;
+    }
+    .nav a:hover{
+      border-top: none;
+      border-bottom: 2px solid #0065FC;
+      padding-bottom: 15px;
+    }
+    .searchbar{
+      width: 100%;
+      justify-content: center;
+    }
+    #desktop-button{
+      display: none;
+    }
+    #mobile-button{
+      display: inline;
+      background-color: #0065FC;
+      border: none;
+      color: white;
+      font-size: 100%;
+      border-radius: 15px;
+      height: 50px;
+      width: 50px;
+    }
+    .filters-title{
+      margin-right: 100%;
+    }
+    .main-padding{
+      padding: unset;
+    }
+    .results-trend-block{
+      flex-direction: column-reverse;
+    }
+    .trends-box{
+      border-radius: 0;
+      width: unset;
+    }
+    .trend-tile{
+      width: 100%;
+    }
+    .results-box{
+      background-color: #FFFF;
+      width: unset;
+      margin: unset;
+    }
+    .results-box-content{
+      flex-direction: column;
+    }
+    .result-tile{
+      width: 100%;
+      height: 250px;
+    }
+    .result-tile-img{
+      height: 170px;
+    }
+    .result-tile-content p{
+      padding: 0;
+    }
+    .activities-box-padding{
+      padding-right: 30px;
+      padding-left: 30px;
+    }
+    .activities-box-content{
+      flex-direction: column;
+      flex-wrap: unset;
+      height: unset;
+    }
+    .activities-column{
+      width: unset;
+      height: unset;
+    }
+    .activity-tile-img img{
+      height: 200px;
+      width: 1000px;
+    }
+    footer{
+      height: unset;
+    }
+    .footer-padding{
+      flex-direction: column;
+      height: unset;
+      width: unset;
+    }
+    .footer-menu{
+      margin: unset;
+      margin-right: auto;
+      padding-top: 10%;
+    }
+  }
+  
