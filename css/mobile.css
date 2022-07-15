@@ -1,10 +1,10 @@
 /*  MOBILE : >= 750px */
 @media only screen and (max-width : 750px){
-  
+
   .global-frame{
-    height : unset !important;
-    margin-right : auto;
-    margin-left : auto;
+    max-width : 700px !important;
+    margin-right : auto !important;
+    margin-left : auto !important;
   }
   header {
     display: flex;
@@ -14,7 +14,7 @@
   .top{
     flex-flow: column nowrap !important;
     height : unset !important;
-    max-height: 200px;
+    max-height: 20%;
   }
   .logo{
     text-align: center;
@@ -33,40 +33,45 @@
     
   }
   .nav a {
-    font-size: 20px !important;
+    font-size: 110% !important;
   }
   .nav a:hover{
     border-top: none !important;
     border-bottom: 2px solid #0065FC;
-    padding-bottom: 15px;
+    padding-bottom: 4%;
   }
   
   .slogan {
     display: flex;
     flex-flow: column nowrap !important;
     max-width: 80%;
-    gap : 10px 0;
+    gap : 1% 0;
     margin : none;
   }
   .slogan h1{
-    font-size: 30px !important;
+    font-size: 150% !important;
   }
   .slogan p{
-    font-size: 20px !important;
+    font-size: 110% !important;
   }
   .search {
     display: flex;
-    flex-flow: column nowrap;
-    height : unset !important;
+    flex-flow: column wrap;
+    width: unset;
   }
   .searchbar{
     display: flex;
     justify-content : center;
-    height : unset !important;
+    flex-flow: row wrap !important;
+    height : 150%;
   }
   .searchbar > form > input{
-    height: 65px !important;
-    font-size: 20px;
+    min-height: 100% !important;
+    font-size: 120%;
+  }
+  .searchbar-icon {
+    text-align: center !important;
+    width: 10% !important;
   }
   #desktop-button{
     display: none;
@@ -112,15 +117,12 @@
     padding-right: 15px;
   }
   
-  .information-icon{
-    /* TODO */
-  }
-  
+
   .information{
     font-size: 23px !important;
   }
   .main {
-    hight : unset !important;
+    height : unset !important;
   }
   .main-padding{
     padding: unset !important;
@@ -128,7 +130,6 @@
   
   article {
     width : 100% !important;
-    
   }
   
   #results-box {
@@ -141,6 +142,9 @@
   }
   .tile p{
     font-size: 22px;
+  }
+  .tile-title {
+    font-size: 130%  !important;
   }
   .stars{
     font-size: 22px;
@@ -206,42 +210,42 @@
     padding-left: 30px !important;
   }
   .activities-box-content{
-    flex-flow: column nowrap!important;
+    display: flex;
+    flex-flow: column wrap!important;
+    height : unset !important;
     
   }
   .activities-column{
+    display: flex;
+    flex-direction: column;
     width: unset !important;
-    height: unset !important;
+    height : unset !important;  
   }
   .activity-tile-img img{
     width : 100% !important;
-    height: 200px !important;
+ 
   }
-  
+  .activity-two img {
+    max-height: 300px !important;
+    overflow: hidden !important;
+  }
   .activity-tile {
-    display: flex;
+    display: flex !important;
     width : unset !important;
-    min-height : 280px !important;
   }
-  .activity-one , .activity-four , .activity-three, .activity-four, .activity-five, .activity-six {
-    height: unset  !important;
-    width: unset  !important;
+  .activity-tile-title {
+    line-height: 30px !important;
+    height: unset !important;
   }
-  .activity-one img , .activity-four img , .activity-six img {
-    height : 100% !important;
-    width: 100% !important;
-  }
-  .activity-two {
-    /* height : 2% !important; */
-    height : unset !important;
-  }
-  
   footer{
     display: flex !important;
+    height : unset !important;
+    flex-flow: column wrap !important;
     
   }
   .footer-padding{
-    
+    display: flex;
+    flex-flow: column wrap;
   }
   .footer-menu{
     margin: unset;

@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/tablette.css" />
     <link rel="stylesheet" href="css/mobile.css" />
     <link rel="stylesheet" href="css/optimised-desktop.css">
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
 </head>
 <body>
     <div class="global-frame">
@@ -31,7 +32,7 @@
                         <i class="fas fa-map-marker-alt"></i>
                     </div>
                     <form>
-                        <input class="fh" type="text" name="Trouver un hébergement" value="  Marseille, France"/>
+                        <input class="full-height" type="text" name="Trouver un hébergement" value="  Marseille, France"/>
                         <button id="mobile-button"><i class="fas fa-search"></i></button>
                         <button id="desktop-button">Rechercher</button>
                     </form>
@@ -76,7 +77,7 @@
                 <div class="results-trend-block">
                     <!--Résultats-->
                     <section class="results-box" id="results-box">
-                        <div class="results-box-padding fh">
+                        <div class="results-box-padding full-height">
                             <div class="results-box-title">
                                 <h2>Hébergements à Marseille</h2>
                             </div>
@@ -91,7 +92,7 @@
                                                 srcset="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
                                                 media="(min-width: 1000px)"
                                                 />
-                                                <img class="fwh" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Photo de l'Auberge la Cannebière">
+                                                <img class="full-width-and-height" src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Photo de l'Auberge la Cannebière">
                                             </picture>
                                             
                                             <div class="result-tile-content">
@@ -118,7 +119,7 @@
                                                 srcset="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
                                                 media="(min-width: 1000px)"
                                                 />
-                                                <img class="fwh" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Photo de l'Hôtel du port">
+                                                <img class="full-width-and-height" src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Photo de l'Hôtel du port">
                                             </picture>
                                             <div class="result-tile-content">
                                                 <h2 class="tile-title">Hôtel du port</h2>
@@ -144,7 +145,7 @@
                                                 srcset="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
                                                 media="(min-width: 1000px)"
                                                 />
-                                                <img class="fwh" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Photo de l'Hôtel Les mouettes">
+                                                <img class="full-width-and-height" src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Photo de l'Hôtel Les mouettes">
                                             </picture>
                                             <div class="result-tile-content">
                                                 <h2 class="tile-title">Hôtel Les mouettes</h2>
@@ -170,7 +171,7 @@
                                                 srcset="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
                                                 media="(min-width: 1000px)"
                                                 />
-                                                <img class="fwh" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Photo de l'Hôtel de la mer">
+                                                <img class="full-width-and-height" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Photo de l'Hôtel de la mer">
                                             </picture>
                                             <div class="result-tile-content">
                                                 <h2 class="tile-title">Hôtel de la mer</h2>
@@ -196,7 +197,7 @@
                                                 srcset="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
                                                 media="(min-width: 1000px)"
                                                 />
-                                                <img class="fwh" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Photo de l'Auberge Le Panier">
+                                                <img class="full-width-and-height" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Photo de l'Auberge Le Panier">
                                             </picture>
                                             <div class="result-tile-content">
                                                 <h2 class="tile-title">Auberge Le Panier</h2>
@@ -222,7 +223,7 @@
                                                 srcset="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
                                                 media="(min-width: 1000px)"
                                                 />
-                                                <img class="fwh" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Photo de l'Hôtel chez Amina">
+                                                <img class="full-width-and-height" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Photo de l'Hôtel chez Amina">
                                             </picture>
                                             <div class="result-tile-content">
                                                 <h2 class="tile-title">Hôtel chez Amina</h2>
@@ -248,8 +249,8 @@
                     
                     <!--Les plus populaires-->
                     <aside class="trends-box">
-                        <div class="trends-box-padding fw">
-                            <div class="trends-box-title fw">
+                        <div class="trends-box-padding full-width">
+                            <div class="trends-box-title full-width">
                                 <h2>Les plus populaires </h2>
                                 <div id="black-star">
                                     <i class="fa-solid fa-star"></i>
@@ -341,7 +342,7 @@
                         <div class="activities-box-content">
                             <div class="activities-column">
                                 <a href="#">
-                                    <div class="tile activity-tile activity-one fwh">
+                                    <div class="tile activity-tile activity-one full-width-and-height">
                                         <picture class="tile-img activity-tile-img">
                                             <source
                                             srcset="images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg "
@@ -359,13 +360,13 @@
                             
                             <div class="activities-column">
                                 <a href="#">
-                                    <div class="tile activity-tile activity-two fw">
+                                    <div class="tile activity-tile activity-two full-width">
                                         <picture class="tile-img activity-tile-img">
                                             <source
                                             srcset="images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg "
                                             media="(max-width: 1095px)"
                                             />
-                                            <img class="fwh" src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Photo du Fort de Pomègues">
+                                            <img class="full-width-and-height" src="images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Photo du Fort de Pomègues">
                                         </picture>
                                         
                                         <div class="tile-title activity-tile-title">
@@ -374,7 +375,7 @@
                                     </div>
                                 </a>
                                 <a href="#">
-                                    <div class="tile activity-tile activity-three fw">
+                                    <div class="tile activity-tile activity-three full-width">
                                         <picture class="tile-img activity-tile-img">
                                             <source
                                             srcset="images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
@@ -384,7 +385,7 @@
                                             srcset="images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
                                             media="(max-width: 850px)"
                                             />
-                                            <img class="fwh" src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Photo des Îles du Frioul">
+                                            <img class="full-width-and-height" src="images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="Photo des Îles du Frioul">
                                         </picture>
                                         <div class="tile-title activity-tile-title">
                                             <h2>Îles du Frioul</h2>
@@ -395,7 +396,7 @@
                             
                             <div class="activities-column">
                                 <a href="#">
-                                    <div class="tile activity-tile activity-four fwh">
+                                    <div class="tile activity-tile activity-four full-width-and-height">
                                         <picture class="tile-img activity-tile-img">
                                             <source
                                             srcset="images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
@@ -416,7 +417,7 @@
                             
                             <div class="activities-column">
                                 <a href="#">
-                                    <div class="tile activity-tile activity-five fw">
+                                    <div class="tile activity-tile activity-five full-width">
                                         <picture class="tile-img activity-tile-img">
                                             <source
                                             srcset="images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg"
@@ -426,7 +427,7 @@
                                             srcset="images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg"
                                             media="(max-width: 750px)"
                                             />
-                                            <img class="fwh" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Photo de Notre-Dame-de-la-Garde">
+                                            <img class="full-width-and-height" src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Photo de Notre-Dame-de-la-Garde">
                                         </picture>
                                         <div class="tile-title activity-tile-title">
                                             <h2>Notre-Dame-de-la-Garde</h2>
@@ -434,7 +435,7 @@
                                     </div>
                                 </a>
                                 <a href="#">
-                                    <div class="tile activity-tile activity-six fw">
+                                    <div class="tile activity-tile activity-six full-width">
                                         <picture class="tile-img activity-tile-img">
                                             <source
                                             srcset="images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
@@ -444,7 +445,7 @@
                                             srcset="images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg"
                                             media="(max-width: 750px)"
                                             />
-                                            <img class="fwh"src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Photo du Parc Longchamps">
+                                            <img class="full-width-and-height"src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="Photo du Parc Longchamps">
                                         </picture>
                                         <div class="tile-title activity-tile-title">
                                             <h2>Parc Longchamps</h2>
